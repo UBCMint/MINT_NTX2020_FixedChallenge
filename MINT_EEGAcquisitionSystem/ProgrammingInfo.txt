@@ -13,3 +13,18 @@ https://www.elprocus.com/pic-microcontroller-programming-using-c-language/
 
 Setting up PIC programmer example:
 https://www.canakit.com/Media/Manuals/UK1300.pdf
+
+Code examples for the PIC Xpress board!!
+https://mplabxpress.microchip.com/mplabcloud/example
+
+
+Structure of code for PIC:
+void main(void)
+{
+   // Initialise everything
+    while(1)
+    {
+        // Do the repetitive work
+    }
+// You should never get here
+}
