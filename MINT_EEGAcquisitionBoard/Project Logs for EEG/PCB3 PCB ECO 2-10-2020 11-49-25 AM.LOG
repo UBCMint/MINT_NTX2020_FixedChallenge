@@ -1,0 +1,14 @@
+Added Pin To Net: NetName=+3.3V Pin=C15-1
+Added Pin To Net: NetName=+5 Pin=C21-1
+Added Pin To Net: NetName=+5 Pin=C22-2
+Added Pin To Net: NetName=+3.3V Pin=PS3.3-5
+Added Pin To Net: NetName=+3.3V Pin=R1-2
+Added Pin To Net: NetName=+3.3V Pin=U1-4
+Added Pin To Net: NetName=+5 Pin=U1-19
+Added Pin To Net: NetName=+5 Pin=U1-21
+Added Pin To Net: NetName=+5 Pin=U1-22
+Added Pin To Net: NetName=+5 Pin=U1-54
+Added Pin To Net: NetName=+5 Pin=U1-56
+Added Pin To Net: NetName=+5 Pin=U1-59
+Change Net Name : Old Net Name=+3.3V New Net Name=+3.3
+Added Member To Class: ClassName=ADS1299 Member=Component U1 ADS1299IPAGR

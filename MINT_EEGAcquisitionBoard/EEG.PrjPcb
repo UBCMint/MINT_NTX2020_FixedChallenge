@@ -122,6 +122,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OQIIEJHS
 
+[Document6]
+DocumentPath=ADS1299.schdoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ONUOGOBX
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
