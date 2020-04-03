@@ -35,7 +35,7 @@ Due to the global ourbreak of COVID-19 the electrical subteam has been limited i
 Unfinished - see programminginfo.txt
 
 ### Data processing (PC)
-unfinished
+Unfinished
 
 ### Note:
 Due to the global ourbreak of COVID-19 the electrical subteam has been limited in our access to resources required to finish the the EEG aquisiton board, and thus have been limited in firmware and software development.
