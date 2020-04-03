@@ -13,10 +13,15 @@ The initial concept idea was to use a similar approach as to previous years. Tha
 After testing and research with various amplifiers and topologies, the choice was made to move to using the ADS1299 chip with passive and software filters instead.
 
 ### Microcontrolelr
+![](Images/MCU.JPG)
 
-### Power Electronics
+![](Images/USB.JPG)
 
 ### ADS1299
+![](Images/ADS1299.JPG)
+
+### Power Electronics
+![](Images/Power%20circuit%20for%20documentation.JPG)
 
 ### Note: 
 Due to the global ourbreak of COVID-19 the electrical subteam has been limited in our access to resources required to finish and test the electrical componentes of the EEG aquisiton board.
