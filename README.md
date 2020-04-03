@@ -26,6 +26,10 @@ To interface with a PC for data transfer, we have implemented an FT232R USB UART
 ![](Images/Power%20circuit%20for%20documentation.JPG)
 The Power electronics for the board offers two power rails using two voltage regulators. One is used to create a 5V rail from the input battery or power supply connection. The other is used to create a 3.3V rail.
 
+## PCB Layout
+![](Images/PCB%20layout.JPG)
+![](Images/PCB%20layout2.JPG)
+
 ### Note: 
 Due to the global ourbreak of COVID-19 the electrical subteam has been limited in our access to resources required to finish and test the electrical componentes of the EEG aquisiton board.
 
