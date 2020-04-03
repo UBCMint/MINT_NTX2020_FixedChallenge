@@ -12,10 +12,22 @@ The initial concept idea was to use a similar approach as to previous years. Tha
 
 After testing and research with various amplifiers and topologies, the choice was made to move to using the ADS1299 chip with passive and software filters instead.
 
+### Microcontrolelr
+
+### Power Electronics
+
+### ADS1299
+
 ### Note: 
 Due to the global ourbreak of COVID-19 the electrical subteam has been limited in our access to resources required to finish and test the electrical componentes of the EEG aquisiton board.
 
 ## Software
+
+### Board Firmware
+Unfinished
+
+### Data processing (PC)
+unfinished
 
 ### Note:
 Due to the global ourbreak of COVID-19 the electrical subteam has been limited in our access to resources required to finish the electrical componentes of the EEG aquisiton board, and thus have been limited in firmware and software development.
