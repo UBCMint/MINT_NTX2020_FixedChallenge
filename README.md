@@ -14,6 +14,9 @@ After testing with various amplifiers and topologies, performing some research, 
 
 ### ADS1299
 ![](Images/ADS1299.JPG)
+The ADS1299 allows us to operate up to 8 electrode channels, each reference to the ground electode... How else are they configrued/Filtered
+
+Bode plots and frequency specifics?
 
 ### Microcontrolelr
 ![](Images/MCU.JPG)
