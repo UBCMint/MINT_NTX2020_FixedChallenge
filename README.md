@@ -10,11 +10,11 @@ The choice to use these components were based on research which showed the preva
 ### Initial concept
 The initial concept was to use a similar approach as to previous years. That being implementing instrumentation amplifiers, along with active filters in order to acquire our signal. 
 
-After testing with various amplifiers and topologies, performing some research, and receiving input from colleagues, the choice was made to use the ADS1299 chip with passive and software filters instead.
+After testing with various amplifiers and topologies, performing some research, and receiving input from colleagues, the choice was made to use the ADS1299 chip with passive and software filters instead. The ADS1299 is low noise and can measure small voltages, which is important for biopotential measurements  
 
 ### ADS1299
 ![](Images/ADS1299.JPG)
-The ADS1299 allows us to operate up to 8 electrode channels, each reference to the ground electrode... How else are they configured/filtered
+We have set up the ADS 1299 with a referential montage and as such, each of the 8 input channels have the same reference electrode. We implemented a differential passive low pass filter at 160Hz (see bode plot). This lets us remove high frequency signals without introducing more noise to the system or losing signal in 10-50Hz rage. Furthermore, the differential set up of the filter rejects common signals between the electrode signal and the reference ground and therefore removes common noise and DC noise. The ADS1299 is connected to the microcontroller with and SPI interface.
 
 Bode plots and frequency specifics?
 
