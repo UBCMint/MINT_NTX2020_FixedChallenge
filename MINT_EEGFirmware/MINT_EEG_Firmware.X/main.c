@@ -35,24 +35,6 @@ int32_t main(void)
     DDPCONbits.JTAGEN = 0;
 #endif
 
-    /*Refer to the C32 peripheral library documentation for more
-    information on the SYTEMConfig function.
-    
-    This function sets the PB divider, the Flash Wait States, and the DRM
-    /wait states to the optimum value.  It also enables the cacheability for
-    the K0 segment.  It could has side effects of possibly alter the pre-fetch
-    buffer and cache.  It sets the RAM wait states to 0.  Other than
-    the SYS_FREQ, this takes these parameters.  The top 3 may be '|'ed
-    together:
-    
-    SYS_CFG_WAIT_STATES (configures flash wait states from system clock)
-    SYS_CFG_PB_BUS (configures the PB bus from the system clock)
-    SYS_CFG_PCACHE (configures the pCache if used)
-    SYS_CFG_ALL (configures the flash wait states, PB bus, and pCache)*/
-
-    /* TODO Add user clock/system configuration code if appropriate.  */
-    SYSTEMConfig(SYS_FREQ, SYS_CFG_ALL); 
-
     /* Initialize I/O and Peripherals for application */
     
     TRISDbits.TRISD1 = 0;       // make CS an output
@@ -60,7 +42,7 @@ int32_t main(void)
     float EEG; 
 
 
-    /* TODO <INSERT USER APPLICATION CODE HERE> */
+    /* TODO add processing and UART code */
 
     while(1)
     {
