@@ -24,6 +24,6 @@ void InitJellyfish(void) {
 }
 
 
-float ReadEEG(void) {
+short ReadEEG(void) {
     return 0; 
 }

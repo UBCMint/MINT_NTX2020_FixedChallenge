@@ -11,6 +11,6 @@
 /* TODO User level functions prototypes (i.e. InitApp) go here */
 
 void InitJellyfish(void); 
-float ReadEEG(void); 
+short ReadEEG(void); 
 
 
