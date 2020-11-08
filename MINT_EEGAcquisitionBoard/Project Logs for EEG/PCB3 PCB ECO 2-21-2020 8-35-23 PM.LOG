@@ -1,7 +1,0 @@
-Change Component Designator: OldDesignator=C12 NewDesignator=C14
-Change Component Designator: OldDesignator=C13 NewDesignator=C15
-Change Component Designator: OldDesignator=C14 NewDesignator=C16
-Change Component Designator: OldDesignator=C15 NewDesignator=C17
-Added Member To Class: ClassName=ADS1299 Member=Component U1 ADS1299IPAGR
-Added Member To Class: ClassName=ADS1299 Member=Component U1 ADS1299IPAGR
-Added Member To Class: ClassName=MCU Member=Component U1 FT232RL-Tray
