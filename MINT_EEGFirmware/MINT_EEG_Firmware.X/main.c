@@ -13,7 +13,7 @@
 #include <stdbool.h>        /* For true/false definition                      */
 
 #include "system.h"         /* System funct/params, like osc/periph config    */
-#include "user.h"           /* User funct/params, such as InitApp             */
+#include "user.h"           /* User funct/params, such as InitApp     
 
 /******************************************************************************/
 /* Global Variable Declaration                                                */
@@ -54,17 +54,24 @@ int32_t main(void)
     SYSTEMConfig(SYS_FREQ, SYS_CFG_ALL); 
 
     /* Initialize I/O and Peripherals for application */
-    InitApp();
+    
+    TRISDbits.TRISD1 = 0;       // make CS an output
+    InitSPI();
+    float EEG; 
 
-    /*Configure Multivector Interrupt Mode.  Using Single Vector Mode
-    is expensive from a timing perspective, so most applications
-    should probably not use a Single Vector Mode*/
-    INTConfigureSystem(INT_SYSTEM_CONFIG_MULT_VECTOR);
 
     /* TODO <INSERT USER APPLICATION CODE HERE> */
 
     while(1)
     {
+        
+        // SPI transfer 
+        EEG = ReadEEG(); 
+        
+        // processing 
+        
+        
+        // UART transfer 
 
     }
 }

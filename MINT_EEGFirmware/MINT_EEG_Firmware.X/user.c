@@ -19,9 +19,11 @@
 
 /* TODO Initialize User Ports/Peripherals/Project here */
 
-void InitApp(void)
-{
-    /* Setup analog functionality and port direction */
+void InitJellyfish(void) {
+    
+}
 
-    /* Initialize peripherals */
+
+float ReadEEG(void) {
+    return 0; 
 }

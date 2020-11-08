@@ -16,4 +16,5 @@
 functions, and other non-peripheral microcontroller initialization functions
 go here. */
 
-
+void InitSPI(void); 
+short WriteReadSPI(unsigned short i); 
