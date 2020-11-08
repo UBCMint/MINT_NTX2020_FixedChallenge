@@ -1,6 +1,6 @@
 # MINT EEG Acquisition System: JellyFish 1.0
 
-### Background
+## Background
 There are many commercially available EEG headsets such as MUSE, OpenBCI, Neurosky, and Emotiv. However, they have too high price, not enough electrodes for high EEG spatial-resolution, low signal quality, or too much time to set up. Over the last two years, MINT has mainly focused on the EEG board only. This year, we will integrate the EEG board into a complete EEG headset that is comfortable, adjustable, sturdy to be worn anytime and anywhere at a reasonable price so that EEG headset can become a common household device as a computer mouse.
 
 
