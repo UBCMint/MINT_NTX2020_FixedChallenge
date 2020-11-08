@@ -1,1 +1,23 @@
+Hello!
+
+This is the folder containing all the past iterations and current updates of the Jellyfish headset. 
+
+Below are some of the features of the headset, which can also be found in the STL files. 
+
+Adjusting Head Size Mechanism:
+In order to effectively accommodate all head sizes, we have implemented an adjustable mechanism that runs both around the head and across it. For the component that wraps around the front of the head, an elastic band stretched around the front of the head will be used to apply suitable pressure for the given head size. Across the head, each band will be either bolted or held using electrodes to the first band. In doing so, all head sizes will be accommodated. Additionally, since our team is utilizing the 10-20 system for electrode placement, it was a requirement that each electrode could be moved at any given time. This is done using a screw on design that will further be explained below
+
+Board Box:
+The board box that connects to the headset is quite simple. It consists of two parts held together by a rod which, when inserted, allows the box to hinge. Inside the box, there are 4 extrusions that will snuggly fit into the board itself. Additionally, the box will be wrapped in aluminum tape as to create a sort of Faraday cage, this reducing electromagnetic noise which is important considering the signals found are quite small and susceptible to noise. Finally, there are two holes along the side of the box to allow access to power and pins at any given time. 
+Easily open and remove the board.
+Protect the board from physical force and also electromagnetic noises (alumni tape…)
+Fluid Tank - Natalia
+Saline Electrode
+How we ensure the saline can be refilled and distributed to all electrodes.
+
+Electrode:
+The wet electrode consists of a piece of cotton sandwich between the scalp and the pre-amplifier PCB board that acts as a bridge when saturated with the electrode solution. Active electrodes with pre-amplifiers allow for the signal acquired to be immediately boosted before additional noise is incorporated into the signal during the travel between the electrode and the system. The signal can be further increased by a screw on top of the electrode that increases the pressure between the cotton and the scalp when twisted. Handles on the sides of the electrode allows for the component to be mounted and slide on the headset frame for maximum flexibility.
+Pre-amplifier PCB + connections to wire
+Connect it to the frame so that it’s movable 
+Adjust the pressure of electrode
 
