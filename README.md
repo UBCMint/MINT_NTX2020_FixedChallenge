@@ -15,6 +15,6 @@ Below is the rough breakdown of costs, for those who want to replicate this desi
 
 ## About Us
 
-Mentha was created by [(Multifaceted Innovation in NeuroTechnology](https://ubcmint.github.io/) (MINT), an undergraduate neurotech team, part of the group [Biomedical Engineering Student Team](http://www.ubcbest.com/) at the University of British Columbia in Vancouver, Canada.
+JellyFish 1.0 was created by [(Multifaceted Innovation in NeuroTechnology](https://ubcmint.github.io/) (MINT), an undergraduate neurotech team, part of the group [Biomedical Engineering Student Team](http://www.ubcbest.com/) at the University of British Columbia in Vancouver, Canada.
 
 JellyFish 1.0 was submitted as a project for the Fixed Challenge category of the [NeuroTechX 2020 Student Club competition](https://neurotechx.github.io/studentclubs/competition/).
