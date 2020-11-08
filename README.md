@@ -20,7 +20,7 @@ Bode plots and frequency specifics?
 
 ### Microcontroller
 ![](Images/MCU.JPG)
-The PIC32MX450/470 is being utilized for this project. The microcontroller was chosen due to its relatively fast clock speed, large memory size, and numerous peripheral pins. Additionally, Microchip offers easy solutions for programming and debugging using the PICkit3 and their MPLAB X IDE. The device is programmed using the PICKit3 through the pins labeled MCLR, PGD, and PGC. Attached to our MCU we have a 25MHz oscillator to set the clock speed, an FT232R USB UART IC for PC data transfer, connections to the ADS1299 through SPI, and the various required connections and decoupling capacitors.
+The PIC32MX450/470 (PIC32MX450F256H-120/PT-ND) is being utilized for this project. The microcontroller was chosen due to its relatively fast clock speed, large memory size, and numerous peripheral pins. Additionally, Microchip offers easy solutions for programming and debugging using the PICkit3 and their MPLAB X IDE. The device is programmed using the PICKit3 through the pins labeled MCLR, PGD, and PGC. Attached to our MCU we have a 25MHz oscillator to set the clock speed, an FT232R USB UART IC for PC data transfer, connections to the ADS1299 through SPI, and the various required connections and decoupling capacitors.
 
 ![](Images/USB.JPG)
 To interface with a PC for data transfer, we have implemented an FT232R USB UART IC. This device connects to the UART peripherals of the PIC32 in order to transfer data to and from a PC with a wired USB-A connection. We have configured the FT232R chip in a self powered configuration as acording to the IC datasheet.
