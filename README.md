@@ -1,7 +1,7 @@
-# MINT_EEGAcquisitionSystem: JellyFish 1.0
+# EEG Board: MENTHA 3.0
 
 ### Background
-UBC MINT is developing an EEG Acquisition System for the 2020 NeurotechX competition Fixed Challenge. The goal is to design a board that can collect EEG potentials accurately and effectively. The system will utilize a PIC32MX microcontroller to send data acquired from the specialized biopotential measurement device (ADS1299) to a PC, where the data will be analyzed and live plotted.
+The goal of MENTHA is to design a board that can collect EEG potentials accurately and effectively. MENTHA 3.0 will utilize a PIC32MX microcontroller to send data acquired from the specialized biopotential measurement device (ADS1299) to a PC, where the data will be analyzed and live plotted.
 
 The choice to use these components were based on research which showed the prevalence of the ADS1299 in literature. Additionally, MINT wanted to develop a smaller and more compact design than previous submissions.
 
