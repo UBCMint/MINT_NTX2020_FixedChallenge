@@ -23,7 +23,7 @@
     </conf>
     <conf name="XC32_PIC32MX795F512L" type="2">
       <platformToolSN></platformToolSN>
-      <languageToolchainDir>C:\CrossIDE\PIC32\xc32\v1.42\bin</languageToolchainDir>
+      <languageToolchainDir>C:\Program Files\Microchip\xc32\v2.50\bin</languageToolchainDir>
       <mdbdebugger version="1">
         <placeholder1>place holder 1</placeholder1>
         <placeholder2>place holder 2</placeholder2>
@@ -58,8 +58,8 @@
       </runprofile>
     </conf>
     <conf name="XC32_PIC32MX460F512L" type="2">
-      <platformToolSN>noToolString</platformToolSN>
-      <languageToolchainDir>C:\CrossIDE\PIC32\xc32\v1.42\bin</languageToolchainDir>
+      <platformToolSN></platformToolSN>
+      <languageToolchainDir>C:\Program Files\Microchip\xc32\v2.50\bin</languageToolchainDir>
       <mdbdebugger version="1">
         <placeholder1>place holder 1</placeholder1>
         <placeholder2>place holder 2</placeholder2>
@@ -95,7 +95,7 @@
     </conf>
     <conf name="XC32_PIC32MX360F512L" type="2">
       <platformToolSN></platformToolSN>
-      <languageToolchainDir>C:\CrossIDE\PIC32\xc32\v1.42\bin</languageToolchainDir>
+      <languageToolchainDir>C:\Program Files\Microchip\xc32\v2.50\bin</languageToolchainDir>
       <mdbdebugger version="1">
         <placeholder1>place holder 1</placeholder1>
         <placeholder2>place holder 2</placeholder2>
@@ -131,7 +131,7 @@
     </conf>
     <conf name="XC32_PIC32MX110F016B" type="2">
       <platformToolSN></platformToolSN>
-      <languageToolchainDir>C:\CrossIDE\PIC32\xc32\v1.42\bin</languageToolchainDir>
+      <languageToolchainDir>C:\Program Files\Microchip\xc32\v2.50\bin</languageToolchainDir>
       <mdbdebugger version="1">
         <placeholder1>place holder 1</placeholder1>
         <placeholder2>place holder 2</placeholder2>

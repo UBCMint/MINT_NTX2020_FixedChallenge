@@ -1,0 +1,1 @@
+ $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_SIMULATOR=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)    -DXPRJ_XC32_PIC32MX460F512L=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)    C:\Users\petze\MPLABXProjects\MINT_EEGAcquisitionSystem\MINT_EEGFirmware\MINT_EEG_Firmware.X\main.c

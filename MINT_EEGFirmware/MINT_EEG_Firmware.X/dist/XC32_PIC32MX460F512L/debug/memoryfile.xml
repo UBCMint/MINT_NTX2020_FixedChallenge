@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <project>                                  
-  <executable name="dist/XC32_PIC32MX460F512L/production/MINT_EEG_Firmware.X.production.elf">                 
+  <executable name="dist/XC32_PIC32MX460F512L/debug/MINT_EEG_Firmware.X.debug.elf">                 
     <memory name="program">                 
       <units>bytes</units>                 
       <length>531968</length>                 
-      <used>2240</used>                     
-      <free>529728</free>                     
+      <used>2260</used>                     
+      <free>529708</free>                     
     </memory>                              
     <memory name="data">              
       <units>bytes</units>                 
       <length>32768</length>                 
-      <used>12</used>                     
-      <free>32756</free>                     
+      <used>524</used>                     
+      <free>32244</free>                     
     </memory>                              
   </executable>                            
 </project>                                 

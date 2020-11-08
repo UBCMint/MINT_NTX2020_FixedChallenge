@@ -79,3 +79,161 @@
 
 /* TODO Add interrupt routine code here. */
 
+
+// *****************************************************************************
+// *****************************************************************************
+// Section: Interrupt Peripheral Library Interface Routines and Macors
+// *****************************************************************************
+// *****************************************************************************
+
+/*******************************************************************************
+  Function:
+    unsigned int __attribute__((nomips16)) INTDisableInterrupts(void)
+
+  Summary:
+    Disables the PIC32MX from handling interrupts.
+
+  Description:
+    This routine disables the core from handling any pending interrupt requests.
+
+  Precondition:
+    None
+
+  Parameters:
+    None
+
+  Returns:
+    The previous state of the CP0 register Status.IE bit.  The INTRestoreInterrupts
+    function can be used in other routines to restore the system interrupt state.
+
+  Example:
+    <code>
+    unsigned int intStatus;
+
+    intStatus = INTDisableInterrupts();
+    </code>
+
+  Remarks:
+    This function cannot be compiled using the MIPS16 instruction set.
+  *****************************************************************************/
+unsigned int __attribute__((nomips16)) INTDisableInterrupts(void){
+    
+    
+}
+
+/*******************************************************************************
+  Function:
+    unsigned int __attribute__((nomips16))  INTEnableInterrupts(void)
+
+  Summary:
+    Enables the PIC32MX to handle interrupts.
+
+  Description:
+    This routine enables the core to handle any pending interrupt requests.
+
+  Precondition:
+    Need to configure system using INTConfigureSystem
+
+  Parameters:
+    None
+
+  Returns:
+    The previous state of the CP0 register Status.IE bit.  The INTRestoreInterrupts
+    function can be used in other routines to restore the system interrupt state.
+
+  Example:
+    <code>
+    unsigned int intStatus;
+
+    intStatus = INTEnableInterrupts();
+    </code>
+
+  Remarks:
+    This function cannot be compiled using the MIPS16 instruction set.
+  *****************************************************************************/
+unsigned int __attribute__((nomips16))  INTEnableInterrupts(void);
+
+/*******************************************************************************
+  Function:
+    void __attribute__((nomips16))  INTRestoreInterrupts(unsigned int status)
+
+  Summary:
+    Restores the PIC32MX interrupt state.
+
+  Description:
+    This routine restores the core to the previous interrupt handling state.
+
+  Precondition:
+    None
+
+  Parameters:
+    status      - the state of the CP0 register Status.IE
+
+  Returns:
+    None
+
+  Example:
+    <code>
+    unsigned int intStatus;
+
+    intStatus = INTDisableInterrupts();
+
+    // ... application code
+
+    INTRestoreInterrupts(intStatus);
+    </code>
+
+  Remarks:
+    This function cannot be compiled using the MIPS16 instruction set.
+  *****************************************************************************/
+void __attribute__((nomips16))  INTRestoreInterrupts(unsigned int status);
+
+/*******************************************************************************
+  Function:
+    void __attribute__ ((nomips16)) INTConfigureSystem(INT_SYSTEM_CONFIG config);
+
+  Summary:
+    Configures the system for  multi-vector or single vectored interrupts.
+
+  Description:
+    This routine configures the core to receive interrupt requests and configures the
+    Interrupt module for Multi-vectored or Single Vectored mode.
+
+  Precondition:
+    None
+
+  Parameters:
+    config      - The interrupt configuration to set.
+
+  Returns:
+    None
+
+  Example:
+    Configure for Multi-vectored mode
+    <code>
+
+    // configure for multi-vectored mode
+    INTConfigureSystem(INT_SYSTEM_CONFIG_MULT_VECTOR);
+
+    // enable interrupts
+    INTEnableInterrupts();
+
+    // ...
+    </code>
+
+    Configure for Single Vectored mode
+    <code>
+
+    // configure for single vectored mode
+    INTConfigureSystem(INT_SYSTEM_CONFIG_SINGLE_VECTOR);
+
+    // enable interrupts
+    INTEnableInterrupts();
+
+    // ...
+    </code>
+
+  Remarks:
+    This function cannot be compiled using the MIPS16 instruction set.
+  *****************************************************************************/
+void __attribute__ ((nomips16)) INTConfigureSystem(INT_SYSTEM_CONFIG config);

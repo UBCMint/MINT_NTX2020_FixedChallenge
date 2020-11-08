@@ -20,6 +20,7 @@
 /******************************************************************************/
 
 /* i.e. uint32_t <variable_name>; */
+#define CS = TRISDbits.TRISD1
 
 /******************************************************************************/
 /* Main Program                                                               */
@@ -36,7 +37,6 @@ int32_t main(void)
 #endif
 
     /* Initialize I/O and Peripherals for application */
-    
     TRISDbits.TRISD1 = 0;       // make CS an output
     InitSPI();
     float EEG; 
