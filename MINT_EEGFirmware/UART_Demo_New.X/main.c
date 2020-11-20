@@ -54,6 +54,8 @@
 
 #include <xc.h>
 
+#define U1RX_RPB10_INDEX 0b0110
+#define U1TX_INDEX 0b0011
 
 #define SYS_FREQ 8000000 // 8Mhz
 
@@ -61,8 +63,9 @@
 // for more explanation of UART config
 void initUART(void)
 {
-    RPD3Rbits.RPD3R = 0b0011; // Configure RPD3 pin as U1TX
-    U1RXRbits.U1RXR = 0b0000; // Configure RPD2 pin as U1RX
+    RPB3Rbits.RPB3R = U1TX_INDEX ;// Configure RPB3 pin as U1TX
+    U1RXRbits.U1RXR = U1RX_RPB10_INDEX; // Configure RPB10 pin as U1RX
+    
     U1MODEbits.BRGH = 0; // Turn on UART1 module
     U1BRG = 129; // Set Baud Rate; 129 corresponds to 9600. See article above for formula
     
