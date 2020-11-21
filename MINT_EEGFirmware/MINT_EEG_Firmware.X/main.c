@@ -13,7 +13,8 @@
 #include <stdbool.h>        /* For true/false definition                      */
 
 #include "system.h"         /* System funct/params, like osc/periph config    */
-#include "user.h"           /* User funct/params, such as InitApp     
+#include "user.h"           /* User funct/params, such as InitApp             */ 
+#include "configuration_bits.c" 
 
 /******************************************************************************/
 /* Global Variable Declaration                                                */
@@ -39,21 +40,27 @@ int32_t main(void)
     /* Initialize I/O and Peripherals for application */
     TRISDbits.TRISD1 = 0;       // make CS an output
     InitSPI();
-    float EEG; 
-
-
-    /* TODO add processing and UART code */
+    InitJellyfish(); 
+    InitUART(); 
+    float EEGsignal; 
 
     while(1)
     {
+        // SPI transfer ----------
+        EEGsignal = ReadEEG(); 
         
-        // SPI transfer 
-        EEG = ReadEEG(); 
+        // processing ------------
+        // TODO turn float value stored in EEGsignal into an array to be sent over 
+        // UART to a computer 
         
-        // processing 
+        // UART transfer ---------
+        // Try this first. It should give a square wave ('U' in ASCII)
+        sendChar('U');
         
-        
-        // UART transfer 
+        // If line above works try uncommenting this line, it sends array of ints
+        // sendSampleDataUART();
 
     }
+    
+    return(EXIT_SUCCESS); 
 }
