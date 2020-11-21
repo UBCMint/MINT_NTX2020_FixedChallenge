@@ -25,5 +25,21 @@ void InitJellyfish(void) {
 
 
 short ReadEEG(void) {
-    return 0; 
+    short X_H = WriteReadSPI(0b1010100100000000);    // Read first data register
+    short X_L = WriteReadSPI(0b1010100000000000);    // Read second data register
+    X_L = X_L & 0b0000000011111111;                  // Combine the data from both registers
+    X_H = X_H << 8;
+    X_H = X_H & 0b1111111100000000;
+    signed short X = X_H | X_L;
+    float value = X * 0.000061;                      // Convert to units of g
+    return value;
+}
+
+
+void sendSampleDataUART() {
+    int i;
+    for (i = 1; i < 10; i++) {
+        while(U1STAbits.UTXBF);         // Wait while buffer is full
+        U1TXREG = i;
+    }
 }
