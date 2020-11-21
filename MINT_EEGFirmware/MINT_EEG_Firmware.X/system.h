@@ -5,8 +5,10 @@
 /* TODO Define system operating frequency */
 
 /* Microcontroller MIPs (FCY) */
-#define SYS_FREQ     25000000L //was 80000000L by default
+#define SYS_FREQ     SYS_FREQ 8000000 // 8Mhz
 #define FCY          SYS_FREQ
+
+#include "configuration_bits.c"
 
 /******************************************************************************/
 /* System Function Prototypes                                                 */
@@ -18,3 +20,5 @@ go here. */
 
 void InitSPI(void); 
 short WriteReadSPI(unsigned short i); 
+void InitUART(void); 
+void sendChar(char c);
