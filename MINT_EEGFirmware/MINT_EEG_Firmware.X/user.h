@@ -12,5 +12,6 @@
 
 void InitJellyfish(void); 
 short ReadEEG(void); 
+void sendSampleDataUART();
 
 
