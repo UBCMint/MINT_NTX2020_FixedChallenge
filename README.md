@@ -6,6 +6,16 @@ There are many commercially available EEG headsets such as MUSE, OpenBCI, Neuros
 
 ## Overall Design
 
+## Headset Design
+One of the primary issues that needed to be tackled was being able to adjust the headset to various headsizes. On top of this, our headset needed to be able to conform to the 10-20 system for electrode placement. This was done by using three headbands that go across the head. These headbands each contain rails which the electrodes lock onto. Additionally, to deal with the various head circumferences available, an elastic band is placed across the forehead, attaching the two ends of the headset, allowing for various headsizes to be used with different elastic bands and allowing the headset remain stable. This allows for the electrodes to be placed anywhere along the head thus conforming to all head sizes.
+
+In our final design it was determined that a fluid source was needed to ensure that the electrodes were saturated at all times in order to deliver the best result. This was done by creating a tank at the top of the head which holds said fluid. One key concern of having this fluid was that we knew that it would conduct the signal throughout the solution and with that, we needed to design a system that not only held the fluid but also distributed the solution separately to each electrode. From this, it was determined that a rotating mechanism was the best solution in that every couple hours an individual would need to rotate the lid to the holder in order to distribute the fluid.
+
+In addition to the central fluid tank holder, another method for solution distribution has been made. In this solution, rather than having tubes branching from a central tank, each electrode would possess its own mini-tank that would easily connect and disconnect to refill (similar to filling a toy water gun). This method requires more testing. However if successful, may allow for more fluid to be stored in the system as a whole.
+
+The final aspect to this headset is the board holder located in the back of the head. This unit combines both the battery for the circuit as well as the circuit board in a protected location with holes conveniently located for any required connections or buttons. Additionally, this boardbox will be wrapped in sheet metal to minimize any electromagnetic radiation that may be present in the area. This allows all processing and power of the headset to be located in one location. 
+
+
 ## Electrode
 The wet electrode consists of a piece of cotton sandwich between the scalp and the pre-amplifier PCB board that acts as a bridge when saturated with the electrode solution. Active electrodes with pre-amplifiers allow for the signal acquired to be immediately boosted before additional noise is incorporated into the signal during the travel between the electrode and the system. The signal can be further increased by a screw on top of the electrode that increases the pressure between the cotton and the scalp when twisted. Handles on the sides of the electrode allows for the component to be mounted and slide on the headset frame for maximum flexibility.
 
