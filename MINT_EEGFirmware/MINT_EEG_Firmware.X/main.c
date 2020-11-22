@@ -192,7 +192,7 @@ void sendChar(char c) {
 }
 
 void InitJellyfish(void) {
-    
+    // TODO send setup commands to ADS1299 
 }
 
 
