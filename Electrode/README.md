@@ -1,20 +1,21 @@
-# MINT EEG Acquisition System: JellyFish 1.0
+# MINT EEG Electrode Evolution Summary 
 
-## Background
-There are many commercially available EEG headsets such as MUSE, OpenBCI, Neurosky, and Emotiv. However, they have too high price, not enough electrodes for high EEG spatial-resolution, low signal quality, or too much time to set up. Over the last two years, MINT has mainly focused on the EEG board only. This year, we will integrate the EEG board into a complete EEG headset that is comfortable, adjustable, sturdy to be worn anytime and anywhere at a reasonable price so that EEG headset can become a common household device as a computer mouse.
+## Electroplated Electrodes (Dry)
+The electroplating electrodes use a mixture of Ag/AgCl or silver paint  (SCP03B) solution to plate the surface of the electrodes. Several electrode shapes and designs were explored to determine optimal configuration for effective signal collection and high signal:noise reading. These electrodes can record alpha rhythms correctly, but it has been noted that signals collected by the electrodes have a higher noise and impedance compared to the traditional Ag/AgCl electrodes. Additionally, coating begins to wear off after approximately 100 scratches. The scratches can be remend by recoating the electrodes with the silver solution. Although electroplated electrodes can measure alpha waves, the concept was abandoned due to its low signal:noise ratio and durability.
 
+## Regenerated Cellulose Membranes Electrodes (Dry)
+Regenerated cellulose membrane electrodes are identified to be suitable for long term use due to regenerative properties as well as high porosity for high surface area. Flower paper was identified to have regenerated cellulose membrane properties. The electrodes were soaked in an electrolyte solution of eight packs of table salt dissolved in water. After conducting eight impedance measurements, a high impedance average was found. Due to the identified high impedance, the regenerated cellulose membrane electrodes were not fully developed. 
 
-## Overall Design
+## Conductive Fabric Electrodes (Dry)
+The developed conductive fabric electrode electrodes use a 3x3x1.5cm cube packaging foam as a core, wrapped in a sheet of woven, silver, conductive fabric. The electrode provides comfort to the user as well as allowing electrodes to contour the head. However, the fabric electrode was calculated to have high impedance in addition to visual wear-and-tears to the fabric. Despite the comfortability and contouring capabilities, the conductive fabric electrodes were not fully developed due to a high impedance and low durability.
 
-## Electrode
+## Dry Spring Electrodes (Dry)
+Dry spring electrodes incorporated springs into dry finger electrodes to better contour the head. Samples from an MDPI article were requested to analyze spring electrodes. Upon testing, the required pressure and flexibility could not be achieved and the electrodes were deemed to be uncomfortable or painful. Although impedance was not recorded, the idea was scrapped due to high discomfortability from high spring constant.
 
-## EEG Board: MENTHA 3.0
+## Compression Fabric Electrodes (Dry)
+Similar to the conductive fabric, a pressure-sensitive conductive sheet (velostat/linqstat) is used in lieu of the conductive fabric. The conductive material has a resistance reducing property when pressure is applied to the fabric, which can be useful for designing flexible sensors. The pressure also allows the electrode to better contour to the head and maximize surface area for signal acquisition. However, upon testing, the compression fabric is found to be twice as large as the conductive fabric, despite applying large pressure. Additionally, after several uses, oily residue begins to accumulate on the surface of the fabric. This suggests a quick and easy formation of biofilms, which may require additional maintenance from the user. Failure to manage the electrodes may impose health risk onto the user. Therefore, the compression fabric is rejected due to its high impedance and potential health issues.
 
-## Budget
-Below is the rough breakdown of costs, for those who want to replicate this design:
+## Cotton Electrodes (Hybrid)
+The current design looks at creating a hybrid electrode which uses cotton and electrolyte solution to bridge the connection between the scalp and PCB board. The cotton will be connected to a water tank that contains dissolved salt. Adding pressure onto the cotton allows more of the liquid to spread onto the scalp, maximizing surface area for signal acquisition. Conducting impedance tests show that cotton soaked in solution has a significantly lower impedance than dry or wet OPENBCI electrodes. Therefore, the hybrid cotton electrodes were further developed for the 2020 MINT EEG acquisition system. 
 
-## About Us
-
-JellyFish 1.0 was created by [(Multifaceted Innovation in NeuroTechnology](https://ubcmint.github.io/) (MINT), an undergraduate neurotech team, part of the group [Biomedical Engineering Student Team](http://www.ubcbest.com/) at the University of British Columbia in Vancouver, Canada.
-
-JellyFish 1.0 was submitted as a project for the Fixed Challenge category of the [NeuroTechX 2020 Student Club competition](https://neurotechx.github.io/studentclubs/competition/).
+Extensive writeup of past designs can be found on the [team’s Google Drive](https://docs.google.com/document/d/16VlDZtCEF2bn4U8mC6i96VPIYXMff-jvLBDzw5MMWTI/edit#heading=h.276hzmhpmpdi)
