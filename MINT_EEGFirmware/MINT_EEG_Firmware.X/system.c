@@ -26,6 +26,12 @@
 /* <Initialize variables in system.h and put code for system code here.>      */
 
 void InitSPI(void) {
+    SDI1R = MCU_SCI_INDEX;
+    RPD4R = MCU_SDO_INDEX;
+    RPD1R = DRDY_INDEX;
+    SCK1R = SCK_INDEX;
+    RPE3R = MCU_SS_INDEX; 
+    
     LATDbits.LATD1 = 1;         // Set CS high (idle state)
      
     IEC0bits.SPI1EIE = 0;       // SPI interrupts disabled
@@ -50,7 +56,7 @@ void InitSPI(void) {
     SPI1CONbits.CKP = 1;        // Idle state for clock is high, active state is low
     SPI1CONbits.CKE = 0;        // Output data changes on transition from idle to active
     SPI1CONbits.SSEN = 0;       // Not in slave mode
-    SPI1CONbits.MSTEN = 1;      // Master mode
+    SPI1CONbits.MSTEN = 1;      // Yes in master mode
     SPI1CONbits.SMP = 1;        // Input data sampled at the end of data output time
      
     SPI1CONbits.ON = 1;         // Turn module on
@@ -69,8 +75,9 @@ short WriteReadSPI(unsigned short i) {
 // See  https://www.digikey.com/eewiki/display/microcontroller/Getting+Started+with+the+PIC32+and+MPLAB+X
 // for more explanation of UART config
 void InitUART(void) {
-    RPD3Rbits.RPD3R = 0b0011; // Configure RPD3 pin as U1TX
-    U1RXRbits.U1RXR = 0b0000; // Configure RPD2 pin as U1RX
+    RPB3Rbits.RPB3R = U1TX_INDEX ;// Configure RPB3 pin as U1TX
+    U1RXRbits.U1RXR = U1RX_RPB10_INDEX; // Configure RPB10 pin as U1RX
+    
     U1MODEbits.BRGH = 0; // Turn on UART1 module
     U1BRG = 129; // Set Baud Rate; 129 corresponds to 9600. See article above for formula
     
