@@ -26,11 +26,11 @@
 /* <Initialize variables in system.h and put code for system code here.>      */
 
 void InitSPI(void) {
-    SDI1R = MCU_SCI_INDEX;
-    RPD4R = MCU_SDO_INDEX;
-    RPD1R = DRDY_INDEX;
-    SCK1R = SCK_INDEX;
-    RPE3R = MCU_SS_INDEX; 
+    SPI1Rbits.SDI1R = MCU_SCI_INDEX;
+    RPD4Rbits.RPD4R = MCU_SDO_INDEX;
+    RPD1Rbits.RPD1R = DRDY_INDEX;
+    SCK1Rbits.SCK1R = SCK_INDEX;
+    RPE3Rbits.RPE3R = MCU_SS_INDEX; 
     
     LATDbits.LATD1 = 1;         // Set CS high (idle state)
      
@@ -52,7 +52,7 @@ void InitSPI(void) {
     SPI1CONbits.SIDL = 0;       // Continue operation in IDLE mode
     SPI1CONbits.DISSDO = 0;     // SDO1 pin is controlled by the module
     SPI1CONbits.MODE16 = 1;     // 16 bit mode
-    SPI1CONbits.MODE32 = 0;
+    SPI1CONbits.MODE32 = 0;     // 32 bit mode 
     SPI1CONbits.CKP = 1;        // Idle state for clock is high, active state is low
     SPI1CONbits.CKE = 0;        // Output data changes on transition from idle to active
     SPI1CONbits.SSEN = 0;       // Not in slave mode
