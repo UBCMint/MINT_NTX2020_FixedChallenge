@@ -24,6 +24,9 @@ The wet electrode consists of a piece of cotton sandwich between the scalp and t
 ## Budget
 Below is the rough breakdown of costs, for those who want to replicate this design:  
 ~$0.5 for consumable cotton pieces and salt.
+~$1.50 for fluid tank & board holder (PLA)
+~$0.12 for each electrode (PLA)
+~$0.75 for headset frame (TPU)
 
 ## About Us
 
