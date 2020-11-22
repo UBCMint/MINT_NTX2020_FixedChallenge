@@ -7,6 +7,7 @@ There are many commercially available EEG headsets such as MUSE, OpenBCI, Neuros
 ## Overall Design
 
 ## Electrode
+The wet electrode consists of a piece of cotton sandwich between the scalp and the pre-amplifier PCB board that acts as a bridge when saturated with the electrode solution. Active electrodes with pre-amplifiers allow for the signal acquired to be immediately boosted before additional noise is incorporated into the signal during the travel between the electrode and the system. The signal can be further increased by a screw on top of the electrode that increases the pressure between the cotton and the scalp when twisted. Handles on the sides of the electrode allows for the component to be mounted and slide on the headset frame for maximum flexibility.
 
 ## EEG Board: MENTHA 3.0
 
