@@ -13,6 +13,7 @@ The wet electrode consists of a piece of cotton sandwich between the scalp and t
 
 ## Budget
 Below is the rough breakdown of costs, for those who want to replicate this design:
+~$60 for consumable cotton pieces and salt.
 
 ## About Us
 
