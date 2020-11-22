@@ -3,8 +3,6 @@
 /******************************************************************************/
 // PIC32MX460F512L Configuration Bit Settings
 
-// 'C' source line config statements
-
 // DEVCFG3
 #pragma config USERID = 0xFFFF          // Enter Hexadecimal value (Enter Hexadecimal value)
 #pragma config FSRSSEL = PRIORITY_7     // Shadow Register Set Priority Select (SRS Priority 7)
@@ -123,7 +121,7 @@ void InitSPI(void) {
     SCK1Rbits.SCK1R = SCK_INDEX;
     RPE3Rbits.RPE3R = MCU_SS_INDEX; 
     
-    LATDbits.LATD1 = 1;         // Set CS high (idle state)
+    LATDbits.LATD1 = 1;         // Set chip select high (idle state)
      
     IEC0bits.SPI1EIE = 0;       // SPI interrupts disabled
     IEC0bits.SPI1RXIE = 0;
