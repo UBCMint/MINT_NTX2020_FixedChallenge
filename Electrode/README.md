@@ -18,4 +18,4 @@ Similar to the conductive fabric, a pressure-sensitive conductive sheet (velosta
 ## Cotton Electrodes (Hybrid)
 The current design looks at creating a hybrid electrode which uses cotton and electrolyte solution to bridge the connection between the scalp and PCB board. The cotton will be connected to a water tank that contains dissolved salt. Adding pressure onto the cotton allows more of the liquid to spread onto the scalp, maximizing surface area for signal acquisition. Conducting impedance tests show that cotton soaked in solution has a significantly lower impedance than dry or wet OPENBCI electrodes. Therefore, the hybrid cotton electrodes were further developed for the 2020 MINT EEG acquisition system. 
 
-Extensive writeup of past designs can be found on the [team’s Google Drive](https://docs.google.com/document/d/16VlDZtCEF2bn4U8mC6i96VPIYXMff-jvLBDzw5MMWTI/edit#heading=h.276hzmhpmpdi)
+# Extensive writeup of past designs can be found on the [team’s Google Drive](https://docs.google.com/document/d/16VlDZtCEF2bn4U8mC6i96VPIYXMff-jvLBDzw5MMWTI/edit#heading=h.276hzmhpmpdi)
