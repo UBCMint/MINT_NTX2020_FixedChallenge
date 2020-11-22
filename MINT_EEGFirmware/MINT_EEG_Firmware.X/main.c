@@ -203,8 +203,7 @@ short ReadEEG(void) {
     X_H = X_H << 8;
     X_H = X_H & 0b1111111100000000;
     signed short X = X_H | X_L;
-    float value = X * 0.000061;                      // Convert to units of g
-    return value;
+    return X;
 }
 
 
