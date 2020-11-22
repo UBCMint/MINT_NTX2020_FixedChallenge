@@ -28,7 +28,6 @@
 void InitSPI(void) {
     SPI1Rbits.SDI1R = MCU_SCI_INDEX;
     RPD4Rbits.RPD4R = MCU_SDO_INDEX;
-    RPD1Rbits.RPD1R = DRDY_INDEX;
     SCK1Rbits.SCK1R = SCK_INDEX;
     RPE3Rbits.RPE3R = MCU_SS_INDEX; 
     
