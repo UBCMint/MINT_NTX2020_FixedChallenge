@@ -12,7 +12,7 @@ The wet electrode consists of a piece of cotton sandwich between the scalp and t
 ## EEG Board: MENTHA 3.0
 
 ## Budget
-Below is the rough breakdown of costs, for those who want to replicate this design:
+Below is the rough breakdown of costs, for those who want to replicate this design:  
 ~$60 for consumable cotton pieces and salt.
 
 ## About Us
