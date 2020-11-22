@@ -26,7 +26,7 @@ Below is the rough breakdown of costs, for those who want to replicate this desi
 ~$0.5 for consumable cotton pieces and salt.  
 ~$1.50 for fluid tank & board holder (PLA)  
 ~$0.12 for each electrode (PLA)  
-~$0.75 for headset frame (TPU)  
+~$3.25 for headset frame (TPU)  
 
 ## About Us
 
