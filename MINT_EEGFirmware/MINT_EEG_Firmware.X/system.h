@@ -2,10 +2,14 @@
 /* System Level #define Macros                                                */
 /******************************************************************************/
 
-/* TODO Define system operating frequency */
+#define MCU_SCI_INDEX 1b0000
+#define MCU_SDO_INDEX 0b1000
+#define MCU_SS_INDEX 0b0111
+#define SCK_INDEX 0b0000 
 
-/* Microcontroller MIPs (FCY) */
+/* Define system operating frequency */
 #define SYS_FREQ     SYS_FREQ 8000000 // 8Mhz
+/* Microcontroller MIPs (FCY) */
 #define FCY          SYS_FREQ
 
 #include "configuration_bits.c"
