@@ -22,6 +22,13 @@
 
 /* i.e. uint32_t <variable_name>; */
 #define CS = TRISDbits.TRISD1
+#define U1RX_RPB10_INDEX 0b0110
+#define U1TX_INDEX 0b0011
+#define DRDY_INDEX 0b0000 // same as SCK?
+#define MCU_SCI_INDEX 1b0000
+#define MCU_SDO_INDEX 0b1000
+#define MCU_SS_INDEX 0b0111
+#define SCK_INDEX 0b0000 // same as DRDY?
 
 /******************************************************************************/
 /* Main Program                                                               */
