@@ -117,7 +117,7 @@ int32_t main(void)
 
 void InitSPI(void) {
     SPI1Rbits.SDI1R = MCU_SCI_INDEX;
-    RPD1R = DRDY_INDEX;
+    RPD1Rbits.RPD1R = DRDY_INDEX;
     RPD4Rbits.RPD4R = MCU_SDO_INDEX;
     // RPD2bits.RPD2R = SCK_INDEX: 
     SCK1Rbits.SCK1R = SCK_INDEX;
