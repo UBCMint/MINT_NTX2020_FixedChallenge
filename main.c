@@ -64,7 +64,7 @@
 #define U1RX_RPB10_INDEX 0b0110
 #define U1TX_INDEX 0b0011
 #define DRDY_INDEX 0b0000       // pin 49 - same as SCK?? 
-#define MCU_SCI_INDEX 1b0000    // pin 51 
+#define MCU_SCI_INDEX 1b0000    // pin 51 - doesn't like that it starts with a 0, which should indicate input
 #define MCU_SDO_INDEX 0b1000    // pin 52 
 #define MCU_SS_INDEX 0b0111     // pin 63
 #define SCK_INDEX 0b0000        // pin 50 - same as DRDY? 
