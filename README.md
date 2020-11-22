@@ -28,6 +28,7 @@ Below is the rough breakdown of costs, for those who want to replicate this desi
 ~$1.50 for fluid tank & board holder (PLA)  
 ~$0.12 for each electrode (PLA)  
 ~$3.25 for headset frame (TPU)  
+~$2.00 for wires
 
 ## About Us
 
