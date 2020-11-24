@@ -39,7 +39,7 @@ Due to the global outbreak of COVID-19 the electrical sub team has been limited 
 ## Software
 
 ### Board Firmware
-Unfinished - see programminginfo.txt
+Unfinished - see EEG_Firmware
 
 ### Data processing (PC)
 Unfinished
