@@ -5,6 +5,8 @@ There are many commercially available EEG headsets such as MUSE, OpenBCI, Neuros
 
 
 ## Overall Design
+![](Images/JellyFish1.0.jpg)
+
 
 ## Headset Design
 One of the primary issues that needed to be tackled was being able to adjust the headset to various headsizes. On top of this, our headset needed to be able to conform to the 10-20 system for electrode placement. This was done by using three headbands that go across the head. These headbands each contain rails which the electrodes lock onto. Additionally, to deal with the various head circumferences available, an elastic band is placed across the forehead, attaching the two ends of the headset, allowing for various headsizes to be used with different elastic bands and allowing the headset remain stable. This allows for the electrodes to be placed anywhere along the head thus conforming to all head sizes.
@@ -20,15 +22,21 @@ The final aspect to this headset is the board holder located in the back of the 
 The wet electrode consists of a piece of cotton sandwich between the scalp and the pre-amplifier PCB board that acts as a bridge when saturated with the electrode solution. Active electrodes with pre-amplifiers allow for the signal acquired to be immediately boosted before additional noise is incorporated into the signal during the travel between the electrode and the system. The signal can be further increased by a screw on top of the electrode that increases the pressure between the cotton and the scalp when twisted. Handles on the sides of the electrode allows for the component to be mounted and slide on the headset frame for maximum flexibility.
 
 ## EEG Board: MENTHA 3.0
+MENTHA 3.0 is an 8-channel EEG board. For more information, please check the MENTHA3.0_EEGBoard folder.
+![](Images/MENTHA3.0.png)
 
 ## Budget
 Below is the rough breakdown of costs, for those who want to replicate this design:  
-~$0.5 for consumable cotton pieces for each electrode  
-~$0.03 for salt solution    
-~$1.50 for fluid tank & board holder (PLA)  
-~$0.12 for each electrode (PLA)  
-~$3.25 for headset frame (TPU)  
-~$2.00 for wires
+~0.5 CAD for consumable cotton pieces for each electrode  
+~0.03 CAD for salt solution    
+~1.50 CAD for fluid tank & board holder (PLA)  
+~0.12 CAD for each electrode (PLA)  
+~3.25 CAD for headset frame (TPU)  
+~5.00 CAD for wires
+~22 CAD for 3 PCBs
+~150 CAD for components of one MENTHA 3.0 board
+Total = 221 CAD
+
 
 ## About Us
 
